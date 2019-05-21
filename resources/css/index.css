@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     font-weight: 300;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
   }
   
@@ -28,11 +28,21 @@ body, html {
       align-items: center;
       align-content: center;
   }
+  /*.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: rgba(250, 248, 248, 0.75);
+    width: 100%;
+  }*/
+  
   .small-tag {
     clear: both;
     color: white;
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 250;
     font-style: italic;
     margin: 0 auto;
@@ -40,7 +50,7 @@ body, html {
 
   .big-tag {
    clear: both;
-   font-size: 3.5rem;
+   font-size: 3rem;
    font-weight: 900;
    color: white;
   }
@@ -54,6 +64,10 @@ body, html {
   }
   .mission p {
       width: 80%;
+      text-align: center;
+      padding-top: 20px;
+  }
+  .mission h3 {
       text-align: center;
   }
   .main {
@@ -83,7 +97,7 @@ body, html {
       order: 1;
   }
 
-  .sub-image {
+  .image-one {
     background-image: url('../images/pipes.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -92,6 +106,16 @@ body, html {
     width: 400px;
     margin: 20px;
   }
+  .image-two {
+    background-image: url('../images/gears.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+  }
+
   .sub-headline {
       font-size: 1rem;
       height: 300px;
@@ -112,29 +136,40 @@ body, html {
     font-size: 16px;
     margin: 4px 2px;
     width: 125px;
+    border: none;
 } 
 .button:hover,
 .button:focus {
     color: white;
+    border: none;
+    outline: none;
     background-color:rgb(106, 105, 105);
 }
-.button a:visited {
+.button a:visited,
+.button a::after {
     border: none;
+    outline: none;
     text-decoration: none;
 }
+.button a:focus {
+    border: none;
+    outline: none;
+  }
 
   footer {
-    height: 50px;
+    height: 75px;
     background-color: rgb(227, 230, 234);
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
   }
   footer p {
-      padding: 12.5px;
       font-size: .8rem;
-      margin-right: 10px;
+      margin-right: 25px;
+      margin-top: 10px;
   }
 
 .company {
@@ -230,6 +265,7 @@ body, html {
   
   nav li {
     border-bottom: 1px solid #f6f4e2;
+    text-align: center;
   }
   nav li:last-child {
     border-bottom: none;
