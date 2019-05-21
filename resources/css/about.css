@@ -187,7 +187,7 @@ body, html {
 
 .company {
     color: black;
-    font-size: 1rem;
+    font-size: .9rem;
     margin: 0;
     padding-left: 20px;
     text-transform: uppercase;
@@ -195,11 +195,8 @@ body, html {
     letter-spacing: 3px;
     height: 65px;
     background-color: white;
-
-  }
-  
-  .company span {
     font-weight: 400;
+
   }
 
   .company img {
@@ -312,7 +309,7 @@ body, html {
 
 
   /* MEDIA QUERIES */
-  @media (min-width: 780px) {
+  @media (min-width: 860px) {
   
     .menu-toggle {
       display: none;
@@ -346,9 +343,9 @@ body, html {
         flex: 0 0 0;
         margin: 0;
     }
-    .company span {
+    .company {
         font-weight: 400;
-        font-size: 1.25rem;
+        font-size: .9rem;
       }
   
       nav {
