@@ -16,7 +16,7 @@ body, html {
   }
 
   .main-image {
-      background-image: url('../images/telescope.jpg');
+      background-image: url('../images/sparks2.jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -40,9 +40,12 @@ body, html {
   
   .small-tag {
     clear: both;
-    font-size: 3rem;
-    font-weight: 900;
     color: white;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.75rem;
+    font-weight: 250;
+    font-style: italic;
+    margin: 0 auto;
    }
 
   .big-tag {
@@ -91,10 +94,10 @@ body, html {
       line-height: 175%;
   }
   .one {
-      order: 1;
+      order: 2;
   }
   .two {
-      order: 2;
+      order: 1;
   }
 
   .image-one {

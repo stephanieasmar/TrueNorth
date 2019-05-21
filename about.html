@@ -4,166 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>myPhotoAtlas: About</title>
+    <title>True North Quality Control</title>
     <!--favicon icon  -->
     <link rel="shortcut icon" href="resources/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="resources/images/favicon.png" type="image/x-icon">
-    <!--<link rel="icon" href="resources/images/favicon.png" type="image/x-icon">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <!--NORMALIZE-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-    <!--fonts  -->
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Raleway|Rock+Salt" rel="stylesheet">
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--css link  -->
     <link rel="stylesheet" href="resources/css/about.css">
-    
-  
 </head>
+
 <body>
-    <!--header  -->
-    <header>
-        <banner class="banner-container">
-            <div class="navigation-left">
-                <div class="hamburger-menu-container">
-                    <!--hamburger icon  -->
-                    <button class="hamburger" data-image-role="hamburger" data-role="iconButton">
-                        <img src="resources/images/hamburgermenu.png" alt="menu button">
-                    </button>
-                    <!--exit icon  -->
-                    <button class="exit" data-image-role="exit-container">
-                        <img src="resources/images/exit.png" alt="exit out of menu">
-                    </button>
-                    <!--open close map button  -->
-                </div>
-                <!--large menu  -->
-                <div class="large-menu-container">
-                    <span class="active"><a href="index.html">Home</a></span>
-                    <span class="active"><a href="search.html">Search</a></span>
-                    <span class="active"><a href="myPlaces.html">myPlaces</a></span>
-                </div>
-            </div>
-            <div class="navigation-right">
-                <div class="myAtlas-logo">
-                    <img src="resources/images/logo.png" alt="myPhotoAtlas logo">
-                </div>
-            </div>
 
-        </banner>
-        <!--hidden menu  -->
-        <div class="menu-container" data-text-role="menu">
-           <ul class="menu-items">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li class="active"><a href="search.html">Search</a></li>
-                <li class="active"><a href="myPlaces.html">myPlaces</a></li>
+    <div class="wrapper">
+        <nav class="site-nav">
+            <h1 class="company"><img src="resources/images/TrueNorthLogo.png"><span>True North QC</span></h1>
+            <div class="menu-toggle">
+              <div class="hamburger"></div>
+            </div>
+            <ul class="open desktop">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#!">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
+        </nav>
+    </div>
+
+    <div class="main-image">
+        <div class="banner">
+   
         </div>
-    </header>
+        <div class="big-tag">WHO WE ARE</div>
+
+    </div>
+
+    
+    <footer><p><i class="far fa-copyright"></i>&nbsp;True North QC</p></footer>
+    
 
 
-<!--about sections are all in one parent container-->
-
-
-    <main>
-        <div class='container'>
-
-            <!--about project section-->
-            <div class="project-container">
-                <div class="about-project">
-                    <div class="vision">
-                        <h3>Our Vision</h3>
-                        <div class="project-image"><img src="resources/images/vision.png" alt="vision"></div>
-                        <p>When we began myPhotoAtlas, there were two aspects we wanted to incorporate into our final product: maps and photos. If nothing else, we wanted to build an application geared toward specific users: photography enthusiasts and travellers exploring a new location. Over time, our concept evolved into much more than we initially imagined. Our final product allows the user to search any location and returns a gallery of photos taken within a specific radius of that location. Additional features include the ability to get directions and save/delete locations and images to the ‘myPlaces’ page. In the future we would like to incorporate a backend server and database, which will allow the user to login to their own profile. We would also like to utilize another API which will give the user information on their chosen locations (i.e. wikipedia, etc.).</p>
-
-                    </div>
-                    <div class="methods">
-                        <h3>Our Methods</h3>
-                        <div class="project-image"><img src="resources/images/methods.png" alt="methods"></div>
-                        <p>Despite building this product in less than six days, we implemented Agile methodology as well as a few other software development techniques. We began by creating a user persona and story-mapping the users’ product experience from beginning to end. We then wire-framed our concept and composed a 3-4 page website. Throughout this process, we implemented 1-day sprints. After our daily sprints, we got together for a mini-retrospective to discuss our roadblocks and any other issues we had for that day. Our day-to-day workflow consisted of collaborative mob-programming as well as individual programming. We also ensured that each team member was contributing equally to the project and getting the experience that she needed to improve her skills. Overall, we thoroughly enjoyed the process of creating this product and believe that the applied best practices and methodologies allowed for a great experience.</p>
-                    </div>
-                    <div class="tools">
-                        <h3>Our Tools</h3>
-                        <div class="project-image"><img src="resources/images/tools2.png" alt="tools"></div>
-
-                        <p>To achieve the style and functionality we were looking for, we used the following tools and languages: HTML, CSS/Flexbox, Bootstrap, JavaScript, jQuery, APIs(Google, Flickr), AJAX, and Trello. Our styling primarily came from Flexbox within CSS. Bootstrap complemented the CSS in creating button functionality and enhancing the user experience. JavaScript, jQuery, and AJAX helped us create a fluid user experience and intuitive interaction. In addition, these programs work behind the scenes gathering data from Google Maps and Flickr APIs, while keeping track of a user's saved places in local storage and much more. These APIs truly helped make our vision a reality. Finally, Trello helped manage our project backlog and track progress. It kept us focused on our goals and on the right path towards a finished product.</p>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="line"></div>
-
-            <!--about developers section-->
-
-            <div class="dev-container">
-                <div class="about-developers">
-                    <div class="sarah">
-                        <h3>Sarah Abbey</h3>
-                        <div class="dev-image"><img src="resources/images/sarah.png" alt="Sarah Abbey"></div>
-
-                        <p>Through her time spent serving in the Peace Corps and AmeriCorps, Sarah discovered she loved solving problems.  She was inspired to learn software development after working for the government and wanting to improve the programs she used daily. She began utilizing online tools, like Codecademy and freeCodeCamp, to study programming after work each day. She decided to further her learning and complete a full-time software development course at DigitalCrafts. Her skills include Python, HTML, CSS, Bootstrap, JavaScript, jQuery, Node.js, React.js, MySQL, Express, and AWS.</p>
-
-                    <div class="social-media">
-                        <a href="https://www.linkedin.com/in/sabbey37/" target="_blank" rel="noopener noreferrer"><img src="resources/images/linkedin-logo.png" alt="linkedin-logo"></a>
-                        <a href="https://github.com/sabbey37" target="_blank" rel="noopener noreferrer"><img src="resources/images/github-logo.png" alt="github-logo"></a>
-                    </div>
-                    </div>
-                    <div class="katie">
-                        <h3>Katie Lane</h3>
-                        <div class="dev-image"><img src="resources/images/katie.png" alt="Katherine Lane"></div>
-                        <p>Through the years, Katie experienced the service industry, then the executive assistant role, and finally an office manager position. However, she wasn’t fulfilled at the end of the day. After a heap of meet-ups, web searches, and asking countless questions of her IT-employed friends, she began her journey with a Coding Bootcamp, DigitalCrafts. Through school and outside studying, she is proficient in HTML, CSS, JavaScript, jQuery, Node.js, React, Angular, and Python.</p>
-                    <div class="social-media">
-                        <a href="https://www.linkedin.com/in/katherine-lane/" target="_blank" rel="noopener noreferrer"><img src="resources/images/linkedin-logo.png" alt="linedin-logo"></a>
-                        <a href="https://github.com/MaeDae11" target="_blank" rel="noopener noreferrer"><img src="resources/images/github-logo.png" alt="github-logo"></a>
-                    </div>
-                    </div>
-                    <div class="steph">
-                        <h3>Stephanie Asmar</h3>
-                        <div class="dev-image"><img src="resources/images/steph.png" alt="Stephanie Asmar"></div>
-                        <p>Stephanie is a jane-of-all-trades turned Full-Stack Software Developer. Currently enrolled in DigitalCrafts’ 16-week programming immersive, she has taken the long road to software development. Starting out her career as a project manager for a fortune 500 Company, she switched directions to become an Operations Analyst for a major Consulting firm in Atlanta. Through this role, she was exposed to the wide world of tech; which contributed to her final pivot into the world of development, where she plans to stay as long as possible! Her technical skills include HTML, CSS, JavaScript, PostgreSQL, Bootstrap, Node.JS, React/Redux, and Python.</p>
-                    <div class="social-media">
-                        <a href="https://www.linkedin.com/in/stephanieasmar/" target="_blank" rel="noopener noreferrer"><img src="resources/images/linkedin-logo.png" alt="linkedin-logo"></a>
-                        <a href="https://github.com/stephanieasmar" target="_blank" rel="noopener noreferrer"><img src="resources/images/github-logo.png" alt="github-logo"></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!--footer  -->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-menu">
-                <span class="active"><a href="index.html" style="color: #8CC3B7">Home</a></span>
-                <span class="active"><a href="search.html"style="color: #8CC3B7">Search</a></span>
-                <span class="active"><a href="myPlaces.html"style="color: #8CC3B7">myPlaces</a></span>
-            </div>
-            <div class="powered-by">
-                <div class="flickr">
-                    <img src="resources/images/Flickr_logo.png" alt="powered by flickr">
-                    <div>Powered by Flickr API</div>
-                </div>
-                <div class="google">
-                    <img src="resources/images/googlelogo.png" alt="powered by google">
-                    <div>Powered by Google API</div>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-
+   
+    <!--Bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!--jQuery minified version -->
     <script
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
     </script>
-
     <!--our JS file  -->
     <script src="resources/scripts/main.js" charset="utf-8"></script>
     <script src="resources/scripts/about.js" charset="utf-8"></script>
-
-
 </body>
 </html>

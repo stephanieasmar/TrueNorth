@@ -16,7 +16,7 @@ body, html {
   }
 
   .main-image {
-      background-image: url('../images/telescope.jpg');
+      background-image: url('../images/drill.jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -91,10 +91,10 @@ body, html {
       line-height: 175%;
   }
   .one {
-      order: 1;
+      order: 2;
   }
   .two {
-      order: 2;
+      order: 1;
   }
 
   .image-one {
