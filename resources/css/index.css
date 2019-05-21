@@ -16,89 +16,13 @@ body, html {
     margin: 0 auto;
   }
 
-  
-  /* 
-  .navigation {
-      width: 90%;
-      margin: 0 auto;
-  }
-
-  header {
-      background: transparent;
-  }
-
-  header::after {
-      content: '';
-      display: table;
-      clear: both;
-    
-
-  }
-
-  .true-north {
-      border: 1px solid black;
-      float: left;
-      padding: 10px 20px;
-      margin-top: 15px;
-      margin-left: -5%;
-  }
-
-  .logo {
-      float: left;
-      padding: 10px 0;
-  }
-
-    nav {
-      float: right;
-  }
-
-  nav ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-  }
-
-  nav li {
-      display: inline-block;
-      margin-left: 70px;
-      padding-top: 25px;
-      position: relative;
-  }
-
-  nav a {
-      color: black;
-      text-decoration: none;
-      text-transform: uppercase;
-  }
-
-  nav a:hover {
-      color: black;
-  }
-
-  nav a::before {
-      content: '';
-      display: block;
-      background-color: black;
-      position: absolute;
-      top: 0;
-      height: 5px;
-      width: 0%;
-      transition: all ease-in-out 250ms;
-  }
-
-  nav a:hover::before {
-      width: 100%;
-  }
-  */
-
-
   .main-image {
       background-image: url('../images/iceberg.png');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 700px;
-      margin-top: 65px;
+      /*margin-top: 65px;*/
   }
 
   .main-headline {
@@ -129,64 +53,31 @@ body, html {
     border: 1px solid green;
   }
 
-
-
-  /* START NAV
-
-  * {
-    box-sizing: border-box;
-}
-
-body {
-  background: #F6F4E2;
-  font-family: 'Titillium Web', sans-serif;
-  letter-spacing: 1px;
-}
-
-.wrapper {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-
-/*
-.container {
-  max-width: 960px;
-  width: 95%;
-  margin: 0 auto;
-}
-
-header {
-  background: #f04343;
-  color: #f7e9cc;
-  padding: 1.5em 0;
-  position: relative;
-}
-
-/*header::after {
-  content: '';
-  clear: both;
-  display: block;
-}*/
-
-
-.logo {
+.company {
     color: black;
     font-size: 1rem;
     margin: 0;
-    padding-top: 24px;
     padding-left: 20px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 3px;
     height: 65px;
     background-color: white;
+
   }
   
-  .logo span {
+  .company span {
     font-weight: 400;
   }
+
+  .company img {
+      position: relative;
+      height: 65px;
+      width: 65px;
+      margin-right: 20px;
+      padding-top: 3px;
+  }
+
   
   .menu-toggle {
     position: absolute;
@@ -288,27 +179,9 @@ header {
     color: rgba(255,255,255,.4);
   }
   
-  /* flex styles */
-  
-  
-  /*
-  nav {
-    width: 100%;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: #e7a119;
-    -webkit-clip-path: circle(0px at top left);
-            clip-path: circle(0px at top left);
-    -webkit-transition: -webkit-clip-path ease-in-out 700ms;
-    transition: -webkit-clip-path ease-in-out 700ms;
-    transition: clip-path ease-in-out 700ms;
-    transition: clip-path ease-in-out 700ms, -webkit-clip-path ease-in-out 700ms;
-    text-align: left;
-  }
-  */
-  
-  
+
+
+  /* MEDIA QUERIES */
   @media (min-width: 780px) {
   
     .menu-toggle {
@@ -343,6 +216,10 @@ header {
         flex: 0 0 0;
         margin: 0;
     }
+    .company span {
+        font-weight: 400;
+        font-size: 1.25rem;
+      }
   
       nav {
         display: flex;
@@ -354,49 +231,14 @@ header {
         top: 0; /* Position the navbar at the top of the page */
         width: 100%; /* Full width */
       }
-    /* nav {
-        flex: 1 1 0;
-        -webkit-clip-path: none;
-              clip-path: none;
   
-        border: 3px solid purple;
-    }
-  */
-  
-    /*.site-nav a:hover,
-    .site-nav a:focus {
-      background: transparent;
-    }
-  */
     .site-nav--icon {
       display: none;
     }
   
   }
-  /* END NAV
 
 
-
-
-  /* MEDIA QUERIES START */
-
-  /* smartphone portrait and landscape */
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    
-    }
-
-
-/* iPads (portrait and landscape) */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    
-    }
-
-    /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-  
-    }
-    
-/* MEDIA QUERIES END */
 
 
   
