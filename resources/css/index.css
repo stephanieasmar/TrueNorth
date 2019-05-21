@@ -1,6 +1,5 @@
 body, html {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-family: 'Titillium Web', sans-serif;
     letter-spacing: 1px;
@@ -17,40 +16,81 @@ body, html {
   }
 
   .main-image {
-      background-image: url('../images/iceberg.png');
+      background-image: url('../images/telescope.jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 700px;
-      /*margin-top: 65px;*/
+      height: 600px;
+      margin-top: 65px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
   }
+  .small-tag {
+    clear: both;
+    color: white;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 250;
+    font-style: italic;
+    margin: 0 auto;
+   }
 
-  .main-headline {
+  .big-tag {
    clear: both;
-   padding-top: 17.5%;
-   padding-left: 22.5%;
-   font-size: 3rem;
+   font-size: 2.5rem;
    font-weight: 900;
+   color: white;
+  }
+  .mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 100px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .sub-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .one {
+      order: 2;
+  }
+  .two {
+      order: 1;
   }
 
   .sub-image {
-    background-image: url('../images/iceberg.png');
+    background-image: url('../images/pipes.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
   }
-
-  .sub-paragraph {
+  .sub-headline {
       font-size: .5rem;
+      height: 300px;
+      width: 400px;
+      margin: 20px;
+      padding: 50px;
   }
 
   footer {
     height: 50px;
     background-color: rgb(227, 230, 234);
-  }
-
-  .bor {
-    border: 1px solid green;
   }
 
 .company {
@@ -77,8 +117,6 @@ body, html {
       margin-right: 20px;
       padding-top: 3px;
   }
-
-  
   .menu-toggle {
     position: absolute;
     padding: 0.8em;
@@ -126,7 +164,6 @@ body, html {
   
   nav {
       margin: 0;
-      padding: 0;
       position: fixed;
       top: 0; /* Position the navbar at the top of the page */
       width: 100%; /* Full width */
@@ -235,6 +272,40 @@ body, html {
     .site-nav--icon {
       display: none;
     }
+    
+    .sub-item {
+        flex-direction: row;
+    }
+    .sub-headline > p {
+        font-size: 1rem;
+    }
+    .button {
+        color: white;
+        background-color: rgb(106, 105, 105);
+        border: none;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        width: 125px;
+   
+    } 
+    .one {
+        order: 1;
+    }
+    .two {
+        order: 2;
+    }
+    .big-tag {
+        font-size: 5rem;
+    }
+    .small-tag {
+        font-size: 3rem;
+    }
+    
+
+      
   
   }
 
