@@ -96,6 +96,13 @@ body, html {
   .two {
       order: 2;
   }
+  .three {
+    order: 2;
+}
+.four {
+    order: 1;
+}
+  
 
   .image-one {
     background-image: url('../images/pipes.jpg');
@@ -366,13 +373,18 @@ body, html {
     .sub-item {
         flex-direction: row;
     }
-
     .one {
-        order: 1;
-    }
-    .two {
-        order: 2;
-    }
+      order: 1;
+  }
+  .two {
+      order: 2;
+  }
+  .three {
+    order: 1;
+}
+.four {
+    order: 2;
+}
     .big-tag {
         font-size: 5rem;
     }
