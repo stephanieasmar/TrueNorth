@@ -84,25 +84,33 @@ body, html {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
   }
-  .org input {
-    width: 535px;
-    height: 50px;
-  }
-  .phone input {
-    width: 560px;
-    height: 50px;
-  }
-  .email input {
-    width: 565px;
-    height: 50px;
-  }
-  .name {
-    display: flex;
-    flex-direction: row;
-   align-items: center;
-  }
+  form div {
+    font-size: .85rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
 
-
+    padding-top: 10px;
+  }
+  .name,
+  .org,
+  .phone,
+  .email,
+  .message {
+    padding-top: 2.5px;
+  }
+  .label {
+    font-size: 1rem;
+  }
+  .org input,
+  .phone input,
+  .email input,
+  .name input {
+    width: 575px;
+    padding-bottom: 20px;
+  }
+  .message textarea {
+    padding-bottom: 20px;
+  }
   .button {
     color: white;
     background-color: rgb(53, 49, 49);
