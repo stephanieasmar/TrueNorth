@@ -70,8 +70,6 @@ body, html {
   }
   form input {
     border: 1px solid lightgray;
-    height: 50px;
-    width: 275px;
     padding: 10px;
     font-size: .85rem;
     font-family: 'Roboto', sans-serif;
@@ -83,12 +81,13 @@ body, html {
     font-size: .85rem;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
+    background: #f4f7f8;
+
   }
   form div {
     font-size: .85rem;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
-
     padding-top: 10px;
   }
   .name,
@@ -99,14 +98,16 @@ body, html {
     padding-top: 2.5px;
   }
   .label {
-    font-size: 1rem;
+    font-size: .85rem;
+    margin-top: 2px;
   }
   .org input,
   .phone input,
   .email input,
   .name input {
-    width: 575px;
-    padding-bottom: 20px;
+    width: 400px;
+    height: 40px;
+    background: #f4f7f8;
   }
   .message textarea {
     padding-bottom: 20px;
