@@ -38,97 +38,50 @@ body, html {
     width: 100%;
   }*/
   
-  .small-tag {
-    clear: both;
-    color: white;
-    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.75rem;
-    font-weight: 250;
-    font-style: italic;
-    margin: 0 auto;
-   }
-
   .big-tag {
    clear: both;
    font-size: 3rem;
    font-weight: 900;
    color: white;
   }
-  .mission {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 50px;
-  }
-  .mission p {
-      width: 80%;
-      text-align: center;
-      padding-top: 20px;
-      line-height: 175%;
-  }
-  .mission h3 {
-      text-align: center;
-  }
   .main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+  .main p {
+    padding: 15px;
+    text-align: center;
+  }
+  .main h5 {
+    text-align: center;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
-  .sub-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      padding-bottom: 50px;
+  .form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
   }
-  .sub-item h6 {
-      color: rgba(106, 105, 105, .75);
-      letter-spacing: 2px;
+  form input,
+  form textarea {
+    border: 1px solid rgb(106, 105, 105);;
   }
-  .sub-item p {
-      text-align: center;
-      padding: 10px;
-      line-height: 175%;
-  }
-  .one {
-      order: 2;
-  }
-  .two {
-      order: 1;
+  .name {
+    display: flex;
+    flex-direction: row;
+
   }
 
-  .image-one {
-    background-image: url('../images/pipes.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 400px;
-    margin: 20px;
-  }
-  .image-two {
-    background-image: url('../images/gears.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 400px;
-    margin: 20px;
-  }
-
-  .sub-headline {
-      font-size: 1rem;
-      height: 300px;
-      width: 400px;
-      padding: 25px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
   .button {
     color: white;
     background-color: rgba(53, 49, 49);
@@ -137,7 +90,7 @@ body, html {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 25px;
     width: 125px;
     border: none;
 } 
@@ -150,22 +103,6 @@ body, html {
     outline: none;
     text-decoration: none;
     background-color:rgb(106, 105, 105);
-}
-
-.button a::before {
-  border: none;
-  outline: none;
-  text-decoration: none;
-  color: white;
-}
-.button a:visited,
-.button a:active,
-.button a:hover,
-.button a:focus {
-    border: none;
-    outline: none;
-    text-decoration: none;
-    color: white;
 }
 
 
@@ -366,18 +303,10 @@ body, html {
         flex-direction: row;
     }
 
-    .one {
-        order: 1;
-    }
-    .two {
-        order: 2;
-    }
     .big-tag {
         font-size: 5rem;
     }
-    .small-tag {
-        font-size: 3rem;
-    }
+
     
 
       
