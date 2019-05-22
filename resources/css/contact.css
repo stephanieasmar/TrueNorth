@@ -54,10 +54,11 @@ body, html {
     padding-bottom: 100px;
   }
   .main p {
-    padding: 15px;
+    padding: 25px;
     text-align: center;
   }
   .main h5 {
+    padding: 15px;
     text-align: center;
   }
   .form {
@@ -65,26 +66,46 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-top: 25px;
   }
-  .form form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+  form input {
+    border: 1px solid lightgray;
+    height: 50px;
+    width: 275px;
+    padding: 10px;
+    font-size: .85rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
   }
-  form input,
   form textarea {
-    border: 1px solid rgb(106, 105, 105);;
+    border: 1px solid lightgray;
+    padding: 10px;
+    font-size: .85rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+  }
+  .org input {
+    width: 535px;
+    height: 50px;
+  }
+  .phone input {
+    width: 560px;
+    height: 50px;
+  }
+  .email input {
+    width: 565px;
+    height: 50px;
   }
   .name {
     display: flex;
     flex-direction: row;
-
+   align-items: center;
   }
+
 
   .button {
     color: white;
-    background-color: rgba(53, 49, 49);
+    background-color: rgb(53, 49, 49);
     border: none;
     padding: 10px;
     text-align: center;
