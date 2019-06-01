@@ -68,15 +68,15 @@ body, html {
     background-color: rgb(227, 230, 234);
     color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
   }
   footer p {
       font-size: .8rem;
-      margin-right: 25px;
-      margin-top: 10px;
+      margin: 0 auto;
+  
   }
 
 .company {
@@ -233,6 +233,21 @@ body, html {
         color: white;
       }
   
+      nav ul li ul { 
+        position:absolute;
+        width:150px;
+        background:#FFF; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+      } 
+      nav ul li ul li {width:150px;}
+      nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
+      nav ul li ul li:hover a {background: rgb(106, 105, 105);}
+      nav ul li ul.dropdown {display:none;}
+      nav ul li:hover ul.dropdown {display:block;}
+      
     .logo {
         flex: 0 0 0;
         margin: 0;
@@ -259,7 +274,7 @@ body, html {
     .big-tag {
         font-size: 5rem;
     }
- 
+
       
   
   }

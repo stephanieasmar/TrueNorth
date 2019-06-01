@@ -5,3 +5,12 @@ $('.menu-toggle').click(function() {
   
   })
   
+  $('nav li ul').hide().removeClass('dropdown');
+  $('nav li').hover(
+    function () {
+      $('ul', this).stop().slideDown(50);
+    },
+    function () {
+      $('ul', this).stop().slideUp(50);
+    }
+  );

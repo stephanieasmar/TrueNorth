@@ -174,21 +174,21 @@ body, html {
 }
 
 
-  footer {
-    height: 75px;
-    background-color: rgb(227, 230, 234);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 20px;
-  }
-  footer p {
-      font-size: .8rem;
-      margin-right: 25px;
-      margin-top: 10px;
-  }
+footer {
+  height: 75px;
+  background-color: rgb(227, 230, 234);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+footer p {
+    font-size: .8rem;
+    margin: 0 auto;
+
+}
 
 .company {
     color: black;
