@@ -86,13 +86,19 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-content: center;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color:  lightgrey;
+  color: white;
+  opacity: .75;
 }
 
 .program-wrapper {
   border-bottom: 1px solid lightgray;
 }
 .program {
-  padding-bottom: 25px;
+  padding-top: 35px;
 }
 .info {
   margin: 50px;
