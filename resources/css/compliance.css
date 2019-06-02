@@ -16,7 +16,7 @@ body, html {
   }
 
   .main-image {
-      background-image: url('../images/drill.jpg');
+      background-image: url('../images/floor.jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -59,19 +59,21 @@ body, html {
   align-items: flex-start;
   justify-content: space-between;
 }
-
 .nav-list {
-  margin-top: 75px;
+  margin-top: 30px;
   margin-right: 25px;
   margin-left: 50px;
   padding-top: 25px;
+  position: sticky;
+  top: 0px;
 }
 .nav-list ul {
   width: 125px;
   padding: 0;
-  
 }
-
+ul {
+  margin: 0;
+}
 .nav-list ul li {
   list-style: none;
 }
@@ -89,20 +91,30 @@ body, html {
   align-content: center;
   height: 50px;
   margin-bottom: 20px;
-  background-color:  lightgrey;
+  background-color:  lightgray;
   color: white;
-  opacity: .75;
 }
-
+.headline1 h3 {
+  margin: 0;
+}
+.info {
+  margin: 100px 50px 50px 50px;
+  padding-right: 50px;
+}
 .program-wrapper {
-  border-bottom: 1px solid lightgray;
+  margin-bottom: 50px;
 }
 .program {
   padding-top: 35px;
 }
-.info {
-  margin: 50px;
-
+.program ul li,
+.program1 ul li {
+  padding: 5px;
+  font-size: .9rem;
+  line-height: 22.5px;
+}
+.program p {
+  margin: 10px;
 }
 
 footer {
@@ -120,7 +132,6 @@ footer p {
     margin: 0 auto;
 
 }
-
 .company {
     color: black;
     font-size: .9rem;
@@ -132,10 +143,7 @@ footer p {
     height: 65px;
     background-color: white;
     font-weight: 400;
-
   }
-  
-
   .company img {
       position: relative;
       height: 65px;
