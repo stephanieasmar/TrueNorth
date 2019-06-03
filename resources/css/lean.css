@@ -340,17 +340,17 @@ footer p {
       nav ul li ul { 
         position:absolute;
         width:150px;
-        background:#FFF; 
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
       } 
       nav ul li ul li {width:150px;}
-      nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
+      nav ul li ul li a {display:block;padding:15px 10px;color:#FFF; background: lightgray}
       nav ul li ul li:hover a {background: rgb(106, 105, 105);}
       nav ul li ul.dropdown {display:none;}
       nav ul li:hover ul.dropdown {display:block;}
+      
       
     .logo {
         flex: 0 0 0;
@@ -392,10 +392,31 @@ footer p {
     .small-tag {
         font-size: 3rem;
     }
-    
+    .headline1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      height: 50px;
+      margin-bottom: 30px;
+      background-color:  lightgray;
+      color: white;
+    }
+    .headline1 h3 {
+      margin: 0;
+    }
+    .definitions {
+      margin: 50px 150px 50px 150px;
+    }
+    .definitions span {
+      background:rgb(106, 105, 105);
+      color: #FFF;
+      padding: 3px;
+    }
+    .definitions p {
+      padding: 5px;
+    }
 
-      
-  
   }
 
 

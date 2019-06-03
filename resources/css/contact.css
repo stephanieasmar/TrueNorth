@@ -309,17 +309,17 @@ body, html {
       nav ul li ul { 
         position:absolute;
         width:150px;
-        background:#FFF; 
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
       } 
       nav ul li ul li {width:150px;}
-      nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
+      nav ul li ul li a {display:block;padding:15px 10px;color:#FFF; background: lightgray}
       nav ul li ul li:hover a {background: rgb(106, 105, 105);}
       nav ul li ul.dropdown {display:none;}
       nav ul li:hover ul.dropdown {display:block;}
+      
       
     .logo {
         flex: 0 0 0;
