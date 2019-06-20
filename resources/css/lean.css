@@ -51,119 +51,35 @@ body, html {
    font-weight: 900;
    color: white;
   }
-  .mission {
+  .lean-enterprise {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 50px;
+    margin-bottom: 50px;
   }
-  .mission p {
-      width: 80%;
-      text-align: center;
-      padding-top: 20px;
-      line-height: 175%;
+  .lean-enterprise h3 {
+    padding: 25px;
   }
-  .mission h3 {
-      text-align: center;
+  .lean-enterprise p {
+    padding-left: 100px;
+    padding-right: 100px;
   }
-  .main {
+  .shingo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
   }
-  .sub-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      padding-bottom: 50px;
+  .shingo p {
+    padding: none;
+    margin: none;
   }
-  .sub-item h6 {
-      color: rgba(106, 105, 105, .75);
-      letter-spacing: 2px;
-  }
-  .sub-item p {
-      text-align: center;
-      padding: 10px;
-      line-height: 175%;
-  }
-  .one {
-      order: 2;
-  }
-  .two {
-      order: 1;
-  }
-
-  .image-one {
-    background-image: url('../images/pipes.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
+  .shingo img {
+    height: 400px;
     width: 400px;
-    margin: 20px;
+    margin: 25px;
   }
-  .image-two {
-    background-image: url('../images/gears.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 400px;
-    margin: 20px;
-  }
-
-  .sub-headline {
-      font-size: 1rem;
-      height: 300px;
-      width: 400px;
-      padding: 25px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-  .button {
-    color: white;
-    background-color: rgba(53, 49, 49);
-    border: none;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    width: 125px;
-    border: none;
-} 
-.button:hover,
-.button:focus,
-.button:active,
-.button:visited {
-    color: white;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    background-color:rgb(106, 105, 105);
-}
-
-.button a::before {
-  border: none;
-  outline: none;
-  text-decoration: none;
-  color: white;
-}
-.button a:visited,
-.button a:active,
-.button a:hover,
-.button a:focus {
-    border: none;
-    outline: none;
-    text-decoration: none;
-    color: white;
-}
 
 
 footer {
@@ -307,6 +223,9 @@ nav ul li:hover ul.dropdown {display:block;}
     text-align: right;
     color: rgba(255,255,255,.4);
   }
+  .definitions {
+    margin: 25px 10px 25px 50px;
+  }
   
 
 
@@ -379,35 +298,36 @@ nav ul li:hover ul.dropdown {display:block;}
     .site-nav--icon {
       display: none;
     }
-    
-    .sub-item {
-        flex-direction: row;
-    }
 
-    .one {
-        order: 1;
-    }
-    .two {
-        order: 2;
-    }
-    .big-tag {
-        font-size: 5rem;
-    }
-    .small-tag {
-        font-size: 3rem;
-    }
-    .headline1 {
+    .lean-enterprise {
       display: flex;
-      align-items: center;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       align-content: center;
-      height: 50px;
-      margin-bottom: 30px;
-      background-color:  lightgray;
-      color: white;
+      margin-bottom: 50px;
     }
-    .headline1 h3 {
-      margin: 0;
+    .lean-enterprise h3 {
+      padding: 25px;
+    }
+    .lean-enterprise p {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    .shingo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 50px;
+    }
+    .shingo p {
+      padding: none;
+      margin: none;
+    }
+    .shingo img {
+      height: 400px;
+      width: 400px;
+      margin-right: 50px;
     }
     .definitions {
       margin: 50px 150px 50px 150px;
@@ -420,6 +340,7 @@ nav ul li:hover ul.dropdown {display:block;}
     .definitions p {
       padding: 5px;
     }
+
 
   }
   @media (max-width: 500px) {

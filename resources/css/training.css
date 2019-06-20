@@ -327,6 +327,7 @@ nav ul li:hover ul.dropdown {display:block;}
     .two {
         order: 2;
     }
+
     .big-tag {
         font-size: 5rem;
     }
@@ -351,11 +352,19 @@ nav ul li:hover ul.dropdown {display:block;}
       margin-right: 100px;
     }
 
+
   }
 
   @media (max-width: 500px) {
     .company span {
       visibility: hidden;
+    }
+
+  }
+
+  @media (max-width: 430px) {
+    .big-tag {
+      text-align: center;
     }
 
   }
