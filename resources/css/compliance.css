@@ -194,9 +194,14 @@ footer p {
   }
   
   nav ul.opening {
-      display: block;
-      height: 30px;
-  }
+    display: block;
+    height: 164px;
+}
+nav ul li ul li a {display:block;padding:15px 10px;color:#FFF; background: lightgray}
+nav ul li ul li:hover a {background: white}
+nav ul li ul.dropdown {display:none;}
+nav ul li:hover ul.dropdown {display:block;}
+
   
   nav li {
     border-bottom: 1px solid #f6f4e2;
@@ -344,6 +349,12 @@ footer p {
       padding: 3px;
     }
 
+  }
+
+  @media (max-width: 500px) {
+    .company span {
+      visibility: hidden;
+    }
   }
 
 

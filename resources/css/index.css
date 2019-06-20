@@ -9,6 +9,8 @@ body, html {
     box-sizing: border-box;
   }
 
+  
+
   .wrapper {
     width: 100%;
     max-width: 960px;
@@ -133,6 +135,9 @@ body, html {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+  }
+  .sub-headline button a {
+    color: white;
   }
   .button {
     color: white;
@@ -274,9 +279,13 @@ footer p {
   
   nav ul.opening {
       display: block;
-      height: 30px;
+      height: 164px;
   }
-  
+  nav ul li ul li a {display:block;padding:15px 10px;color:#FFF; background: lightgray}
+  nav ul li ul li:hover a {background: white}
+  nav ul li ul.dropdown {display:none;}
+  nav ul li:hover ul.dropdown {display:block;}
+
   nav li {
     border-bottom: 1px solid #f6f4e2;
     text-align: center;
@@ -291,7 +300,6 @@ footer p {
     padding: 1.5em 4em 1.5em 3em;
     text-transform: uppercase;
     text-decoration: none;
-  
   }
   
   nav a:hover,
@@ -351,6 +359,10 @@ footer p {
         justify-content: space-between;
         text-align: center;
       } 
+      nav ul.opening {
+        display: block;
+        height: 30px;
+    }
       nav ul li ul li {width:150px;}
       nav ul li ul li a {display:block;padding:15px 10px;color:#FFF; background: lightgray}
       nav ul li ul li:hover a {background: rgb(106, 105, 105);}
@@ -410,8 +422,11 @@ footer p {
 
   }
 
-
-
+  @media (max-width: 500px) {
+    .company span {
+      visibility: hidden;
+    }
+  }
 
   
 
