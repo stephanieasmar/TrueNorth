@@ -51,12 +51,13 @@ body, html {
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .mission p {
       text-align: center;
       line-height: 175%;
       font-size: .75rem;
-      margin: 15px;
   }
   .mission h4 {
       text-align: center;
