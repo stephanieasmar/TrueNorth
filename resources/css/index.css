@@ -3,6 +3,8 @@ body, html {
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
+    height:100vh; /* fix IE11 */
+    min-height:100%; /* fix IE11 */  
   }
   
   * {
@@ -29,6 +31,7 @@ body, html {
       justify-content: center;
       align-items: center;
       align-content: center;
+      overflow:hidden; /* IE EDGE overflow fix */  
   }
   /*.banner {
     display: flex;
@@ -61,6 +64,7 @@ body, html {
     align-items: center;
     align-content: center;
     margin: 50px;
+    overflow:hidden; /* IE EDGE overflow fix */  
   }
   .mission p {
       text-align: center;
@@ -77,6 +81,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    overflow:hidden; /* IE EDGE overflow fix */  
   }
   .sub-item {
       display: flex;
@@ -84,6 +89,7 @@ body, html {
       align-items: center;
       justify-content: space-around;
       padding-bottom: 50px;
+      overflow:hidden; /* IE EDGE overflow fix */  
   }
   .sub-item h6 {
       color: rgba(106, 105, 105, .75);
@@ -137,6 +143,7 @@ body, html {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      overflow:hidden; /* IE EDGE overflow fix */  
   }
   .sub-headline button a {
     color: white;
@@ -190,6 +197,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  overflow:hidden; /* IE EDGE overflow fix */  
 }
 footer p {
     font-size: .8rem;
@@ -278,6 +286,7 @@ footer p {
       padding: 0;
       margin: 0;
       display: none;
+      overflow:hidden; /* IE EDGE overflow fix */  
   }
   
   nav ul.opening {
@@ -334,6 +343,7 @@ footer p {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
+      overflow:hidden; /* IE EDGE overflow fix */  
     }
     nav li {
        flex: 1 1 auto;
@@ -361,6 +371,7 @@ footer p {
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
+        overflow:hidden; /* IE EDGE overflow fix */  
       } 
       nav ul.opening {
         display: block;

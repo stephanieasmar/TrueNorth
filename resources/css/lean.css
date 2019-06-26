@@ -3,6 +3,8 @@ body, html {
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
+    height:100vh; /* fix IE11 */
+    min-height:100%; /* fix IE11 */  
 }
   
   * {
@@ -27,6 +29,7 @@ body, html {
       justify-content: center;
       align-items: center;
       align-content: center;
+      overflow:hidden; /* IE EDGE overflow fix */  
   }
   /*.banner {
     display: flex;
@@ -57,6 +60,7 @@ body, html {
     justify-content: center;
     align-items: center;
     align-content: center;
+    overflow:hidden; /* IE EDGE overflow fix */  
   }
   .lean-enterprise h3 {
     padding: 15px;
@@ -77,6 +81,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow:hidden; /* IE EDGE overflow fix */  
   }
   .shingo img {
     height: 300px;
@@ -90,6 +95,7 @@ body, html {
     align-items: center;
     align-content: center;
     margin-bottom: 50px;
+    overflow:hidden; /* IE EDGE overflow fix */  
   }
 
   .definitions span {
@@ -121,6 +127,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  overflow:hidden; /* IE EDGE overflow fix */  
 }
 footer p {
     font-size: .8rem;
@@ -211,6 +218,7 @@ footer p {
       padding: 0;
       margin: 0;
       display: none;
+      overflow:hidden; /* IE EDGE overflow fix */  
   }
   
   nav ul.opening {
@@ -270,6 +278,7 @@ nav ul li:hover ul.dropdown {display:block;}
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
+      overflow:hidden; /* IE EDGE overflow fix */  
     }
     nav li {
        flex: 1 1 auto;
@@ -297,6 +306,7 @@ nav ul li:hover ul.dropdown {display:block;}
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
+        overflow:hidden; /* IE EDGE overflow fix */  
       } 
       nav ul li ul li {width:150px;}
       nav ul li ul li a {display:block;padding:15px 10px;color:#FFF; background: lightgray}
