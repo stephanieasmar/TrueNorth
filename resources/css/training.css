@@ -336,6 +336,7 @@ nav ul li:hover ul.dropdown {display:block;}
 
     .main h4 {
       padding: 25px;
+      font-size: 1.75rem;
     }
     .main p {
       margin-left: 100px;

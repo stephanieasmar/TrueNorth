@@ -87,6 +87,9 @@ p, li {
 .line-break {
   border-top: 2px solid lightgrey;
 }
+.definitions {
+  margin-top: 25px;
+}
 .definitions span {
   background-color: gray;
   color: white;
@@ -328,7 +331,7 @@ nav ul li:hover ul.dropdown {display:block;}
       margin-bottom: 50px;
     }
     .program {
-      padding-top: 35px;
+      padding-top: 25px;
     }
     .program ul li,
     .program1 ul li {
@@ -343,6 +346,10 @@ nav ul li:hover ul.dropdown {display:block;}
       background:rgb(106, 105, 105);
       color: #FFF;
       padding: 3px;
+    }
+    h4 {
+      margin-bottom: 15px;
+      font-size: 1.5rem;
     }
 
   }

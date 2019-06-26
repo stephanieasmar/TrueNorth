@@ -91,11 +91,7 @@ body, html {
     align-content: center;
     margin-bottom: 50px;
   }
-  .definitions h3 {
-    font-size: 1.25rem;
-    padding: 15px;
-    margin: none;
-  }
+
   .definitions span {
     background:rgb(106, 105, 105);
     color: #FFF;
@@ -342,6 +338,8 @@ nav ul li:hover ul.dropdown {display:block;}
     }
     .lean-enterprise h3 {
       padding: 25px;
+      font-size: 1.75rem;
+
     }
     .lean-enterprise p {
       padding-left: 100px;
@@ -375,6 +373,11 @@ nav ul li:hover ul.dropdown {display:block;}
     .definitions {
       margin: 50px 150px 50px 150px;
     }
+    .headline1 h3 {
+      font-size: 1.75rem;
+      padding: 15px;
+      margin: none;
+    }
     .definitions span {
       background:rgb(106, 105, 105);
       color: #FFF;
@@ -386,6 +389,8 @@ nav ul li:hover ul.dropdown {display:block;}
 
 
   }
+
+
   @media (max-width: 500px) {
     .company span {
       visibility: hidden;

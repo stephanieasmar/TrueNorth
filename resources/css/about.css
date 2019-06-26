@@ -51,8 +51,8 @@ body, html {
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .mission p {
       text-align: center;
@@ -286,6 +286,13 @@ nav ul li:hover ul.dropdown {display:block;}
     }
     .big-tag {
         font-size: 5rem;
+    }
+    .mission {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    .mission h4 {
+      font-size: 1.25rem;
     }
 
       
