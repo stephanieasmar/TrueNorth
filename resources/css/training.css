@@ -94,20 +94,13 @@ ul {
   color: black;
   text-decoration: none;
 }
-.headline1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  height: 50px;
-  margin-bottom: 20px;
-  background-color:  lightgray;
-  color: white;
+.main h4 {
+  margin: 0; 
+  font-size: 1.25rem;
 }
-.headline1 h3 {
-  margin: 0;
+p, li {
+  font-size: .75rem;
 }
-
 footer {
   height: 75px;
   background-color: rgb(227, 230, 234);

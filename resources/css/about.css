@@ -51,16 +51,22 @@ body, html {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 50px;
   }
   .mission p {
-      width: 80%;
       text-align: center;
-      padding-top: 20px;
       line-height: 175%;
+      font-size: .75rem;
+      margin: 15px;
   }
-  .mission h3 {
+  .mission h4 {
       text-align: center;
+      font-size: 1rem;
+      margin: 15px;
+  }
+  .line-break {
+    border-bottom: 2px solid lightgrey;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   
   footer {

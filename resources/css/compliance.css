@@ -77,6 +77,20 @@ body, html {
 .headline1 h3 {
   margin: 0;
 }
+h4 {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+}
+p, li {
+  font-size: .75rem;
+}
+.line-break {
+  border-top: 2px solid lightgrey;
+}
+.definitions span {
+  background-color: gray;
+  color: white;
+}
 
 footer {
   height: 75px;

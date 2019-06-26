@@ -47,7 +47,7 @@ body, html {
 
   .big-tag {
    clear: both;
-   font-size: 5rem;
+   font-size: 3.5rem;
    font-weight: 900;
    color: white;
   }
@@ -57,32 +57,63 @@ body, html {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 50px;
   }
   .lean-enterprise h3 {
-    padding: 25px;
+    padding: 15px;
+    margin: none;
+    font-size: 1.25rem;
   }
   .lean-enterprise p {
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: .75rem;
   }
   .headline1 h3 {
-    margin-bottom: 25px;
+    font-size: 1.25rem;
+    padding: 15px;
+    margin: none;
   }
   .shingo {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .shingo p {
-    padding: none;
-    margin-top: none;
-  }
   .shingo img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     margin: 25px;
   }
+  .definitions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 50px;
+  }
+  .definitions h3 {
+    font-size: 1.25rem;
+    padding: 15px;
+    margin: none;
+  }
+  .definitions span {
+    background:rgb(106, 105, 105);
+    color: #FFF;
+    padding: 3px;
+    font-size: .75rem;
+  }
+  .definitions p {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: .75rem;
+  }
+  .line-break {
+    border-bottom: 2px solid lightgrey;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+
 
 
 footer {
@@ -227,26 +258,14 @@ nav ul li:hover ul.dropdown {display:block;}
     text-align: right;
     color: rgba(255,255,255,.4);
   }
-  .definitions {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-bottom: 50px;
-    margin: 25px 50px 25px 50px;
-  }
-  .definitions span {
-    background:rgb(106, 105, 105);
-    color: #FFF;
-    padding: 3px;
-  }
-
 
 
   /* MEDIA QUERIES */
   @media (min-width: 860px) {
   
+    .big-tag {
+      font-size: 5rem;
+     }
     .menu-toggle {
       display: none;
     }
@@ -320,7 +339,6 @@ nav ul li:hover ul.dropdown {display:block;}
       justify-content: center;
       align-items: center;
       align-content: center;
-      margin-bottom: 100px;
     }
     .lean-enterprise h3 {
       padding: 25px;
@@ -339,6 +357,15 @@ nav ul li:hover ul.dropdown {display:block;}
     .shingo p {
       padding: none;
       margin-top: 15px;
+      font-size: 1rem;
+    }
+    p.quote {
+      font-style: italic;
+      margin-top: 25px;
+      font-size: .9rem;
+    }
+    p.caption {
+      font-style: bold;
     }
     .shingo img {
       height: 400px;

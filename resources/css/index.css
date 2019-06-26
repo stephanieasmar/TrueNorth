@@ -63,13 +63,14 @@ body, html {
     margin: 50px;
   }
   .mission p {
-      width: 80%;
       text-align: center;
       padding-top: 20px;
       line-height: 175%;
+      font-size: .75rem;
   }
   .mission h3 {
       text-align: center;
+      font-size: 1rem;
   }
   .main {
     display: flex;
@@ -92,6 +93,7 @@ body, html {
       text-align: center;
       padding: 10px;
       line-height: 175%;
+      font-size: .75rem;
   }
   .one {
       order: 1;
@@ -397,7 +399,54 @@ footer p {
     .site-nav--icon {
       display: none;
     }
+    .mission p {
+      text-align: center;
+      padding-top: 20px;
+      line-height: 175%;
+      font-size: 1rem;
+      width: 1000px;
+    }
+    .mission h3 {
+      text-align: center;
+      font-size: 1.5rem;
+      font-style: italic;
+  }
     
+  .image-one {
+    background-image: url('../images/pipes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+  }
+  .image-two {
+    background-image: url('../images/gears.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+  }
+
+  .sub-headline {
+      font-size: 1rem;
+      height: 400px;
+      width: 500px;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .sub-item h6 {
+    font-size: 1rem;
+}
+.sub-item p {
+    font-size: .9rem;
+}
     .sub-item {
         flex-direction: row;
     }
