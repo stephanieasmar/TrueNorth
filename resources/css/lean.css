@@ -268,6 +268,15 @@ nav ul li:hover ul.dropdown {display:block;}
     margin-left: 50px;
     margin-right: 50px;
   }
+  p.quote {
+    font-style: italic;
+    font-weight: bold;
+    font-size: .9rem;
+    margin: 25px 0 25px 0;
+    width: 80%;
+ 
+
+  }
 
 
   /* MEDIA QUERIES */
@@ -377,28 +386,21 @@ nav ul li:hover ul.dropdown {display:block;}
       font-size: 1rem;
       font-size: .9rem;
       width: 80%;
-      margin-left: 10%;
-      height: auto;
 
     }
     p.quote {
       font-style: italic;
-      margin-top: 25px;
+      margin: 50px 0 50px 0;
       font-size: 1.1rem;
-      margin-left: 20%;
+      text-align: center;
+
     }
     .shingo img {
       height: 400px;
       width: 400px;
       margin-left: 50px;
     }
-    .definitions {
-      width: 80%;
-      margin-left: 10%;
-      height: auto;
-  
 
-    }
     .definitions h3 {
       font-size: 1.5rem;
       padding: 15px;
@@ -415,6 +417,11 @@ nav ul li:hover ul.dropdown {display:block;}
     .definitions p {
       padding: 5px;
       font-size: .9rem;
+      width: 80%;
+    }
+    .main {
+      width: 80%;
+      margin-left: 10%;
     }
 
 
