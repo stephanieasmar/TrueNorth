@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
@@ -29,7 +28,7 @@ body, html {
       justify-content: center;
       align-items: center;
       align-content: center;
-      overflow:hidden; /* IE EDGE overflow fix */  
+     
   }
   /*.banner {
     display: flex;
@@ -60,19 +59,18 @@ body, html {
     justify-content: center;
     align-items: center;
     align-content: center;
-    overflow:hidden; /* IE EDGE overflow fix */  
+
   }
   .lean-enterprise h3 {
-    padding: 15px;
-    margin: none;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    padding: 50px 0 15px 0;
   }
   .lean-enterprise p {
     margin-left: 25px;
     margin-right: 25px;
     font-size: .75rem;
   }
-  .headline1 h3 {
+  .defnitions h3 {
     font-size: 1.25rem;
     padding: 15px;
     margin: none;
@@ -81,7 +79,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow:hidden; /* IE EDGE overflow fix */  
+  
   }
   .shingo img {
     height: 300px;
@@ -95,7 +93,7 @@ body, html {
     align-items: center;
     align-content: center;
     margin-bottom: 50px;
-    overflow:hidden; /* IE EDGE overflow fix */  
+
   }
 
   .definitions span {
@@ -107,13 +105,15 @@ body, html {
   .definitions p {
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 25px;
     font-size: .75rem;
   }
-  .line-break {
-    border-bottom: 2px solid lightgrey;
-    margin-left: 25px;
-    margin-right: 25px;
+  .definitions h3 {
+    font-size: 1rem;
+    padding: 50px 0 15px 0;
+
   }
+
 
 
 
@@ -127,7 +127,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  overflow:hidden; /* IE EDGE overflow fix */  
+ 
 }
 footer p {
     font-size: .8rem;
@@ -218,7 +218,7 @@ footer p {
       padding: 0;
       margin: 0;
       display: none;
-      overflow:hidden; /* IE EDGE overflow fix */  
+  
   }
   
   nav ul.opening {
@@ -263,6 +263,12 @@ nav ul li:hover ul.dropdown {display:block;}
     color: rgba(255,255,255,.4);
   }
 
+  .line-break {
+    border-top: 2px solid lightgray;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
 
   /* MEDIA QUERIES */
   @media (min-width: 860px) {
@@ -278,7 +284,7 @@ nav ul li:hover ul.dropdown {display:block;}
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
-      overflow:hidden; /* IE EDGE overflow fix */  
+ 
     }
     nav li {
        flex: 1 1 auto;
@@ -306,7 +312,7 @@ nav ul li:hover ul.dropdown {display:block;}
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
-        overflow:hidden; /* IE EDGE overflow fix */  
+       
       } 
       nav ul li ul li {width:150px;}
       nav ul li ul li a {display:block;padding:15px 10px;color:#FFF; background: lightgray}
@@ -348,16 +354,19 @@ nav ul li:hover ul.dropdown {display:block;}
     }
     .lean-enterprise h3 {
       padding: 25px;
-      font-size: 1.75rem;
+      font-size: 1.5rem;
+      margin-top: 50px;
+      margin-bottom: 10px;
 
     }
     .lean-enterprise p {
-      padding-left: 100px;
-      padding-right: 100px;
+      width: 80%;
+      margin-left: 7%;
+      font-size: .9rem;
     }
     .shingo {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       margin-top: 15px;
       margin-bottom: 25px;
@@ -366,14 +375,17 @@ nav ul li:hover ul.dropdown {display:block;}
       padding: none;
       margin-top: 15px;
       font-size: 1rem;
+      font-size: .9rem;
+      width: 80%;
+      margin-left: 10%;
+      height: auto;
+      overflow: scroll;
     }
     p.quote {
       font-style: italic;
       margin-top: 25px;
-      font-size: .9rem;
-    }
-    p.caption {
-      font-style: bold;
+      font-size: 1.1rem;
+      margin-left: 20%;
     }
     .shingo img {
       height: 400px;
@@ -381,12 +393,19 @@ nav ul li:hover ul.dropdown {display:block;}
       margin-left: 50px;
     }
     .definitions {
-      margin: 50px 150px 50px 150px;
+      width: 80%;
+      margin-left: 10%;
+      height: auto;
+      overflow: scroll;
+
     }
-    .headline1 h3 {
-      font-size: 1.75rem;
+    .definitions h3 {
+      font-size: 1.5rem;
       padding: 15px;
       margin: none;
+      margin-bottom: 10px;
+      margin-left: 15px;
+      margin-top: 50px;
     }
     .definitions span {
       background:rgb(106, 105, 105);
@@ -395,6 +414,7 @@ nav ul li:hover ul.dropdown {display:block;}
     }
     .definitions p {
       padding: 5px;
+      font-size: .9rem;
     }
 
 

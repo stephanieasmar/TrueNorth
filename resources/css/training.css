@@ -57,10 +57,11 @@ body, html {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-.main h4 {
-  padding: 25px;
-}
+
+
 .main p {
   margin-left: 25px;
   margin-right: 25px;
@@ -95,8 +96,8 @@ ul {
   text-decoration: none;
 }
 .main h4 {
-  margin: 0; 
   font-size: 1.25rem;
+  padding: 25px;
 }
 p, li {
   font-size: .75rem;
@@ -336,7 +337,7 @@ nav ul li:hover ul.dropdown {display:block;}
 
     .main h4 {
       padding: 25px;
-      font-size: 1.75rem;
+      font-size: 1.25rem;
     }
     .main p {
       margin-left: 100px;

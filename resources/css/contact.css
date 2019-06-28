@@ -49,9 +49,9 @@ body, html {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-bottom: 25px;
   }
   .main p {
@@ -61,10 +61,12 @@ body, html {
     font-size: .75rem;
   }
   .main h5 {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     line-height: 175%;
     font-size: .9rem;
+    width: 80%;
+    margin-bottom: 25px;
   }
   .form {
     display: flex;
@@ -272,7 +274,6 @@ nav ul li:hover ul.dropdown {display:block;}
     text-decoration: none;
 
   }
-  
   .site-nav--icon {
     font-size: 1.4em;
     margin-right: 1em;
@@ -280,7 +281,16 @@ nav ul li:hover ul.dropdown {display:block;}
     text-align: right;
     color: rgba(255,255,255,.4);
   }
-  
+  .contact {
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 15px;
+  }
+  .contact h4 {
+    font-size: 1rem;
+  }
+
+
 
 
   /* MEDIA QUERIES */
@@ -384,11 +394,20 @@ nav ul li:hover ul.dropdown {display:block;}
       background: #f4f7f8;
       width: 500px;
     }
+    .main {
+      padding: 50px 100px 50px 100px;
+    }
     .main h5 {
       padding-left: 100px;
       padding-right: 100px;
-      font-size: 1.25rem;
+      font-size: 1.1rem;
     }
+    .contact {
+      text-align: center;
+      border: 3px solid lightgray;
+      padding: 25px;
+    }
+  
 
 
   }

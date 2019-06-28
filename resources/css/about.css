@@ -288,8 +288,10 @@ nav ul li:hover ul.dropdown {display:block;}
         font-size: 5rem;
     }
     .mission {
-      padding-left: 100px;
-      padding-right: 100px;
+      width: 80%;
+      margin-left: 10%;
+      height: auto;
+      overflow: scroll;
     }
     .mission h4 {
       font-size: 1.25rem;

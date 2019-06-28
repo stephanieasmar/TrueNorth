@@ -31,7 +31,7 @@ body, html {
       justify-content: center;
       align-items: center;
       align-content: center;
-      overflow:hidden; /* IE EDGE overflow fix */  
+
   }
   /*.banner {
     display: flex;
@@ -63,8 +63,7 @@ body, html {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 50px;
-    overflow:hidden; /* IE EDGE overflow fix */  
+    margin: 50px; 
   }
   .mission p {
       text-align: center;
@@ -81,7 +80,6 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    overflow:hidden; /* IE EDGE overflow fix */  
   }
   .sub-item {
       display: flex;
@@ -89,7 +87,6 @@ body, html {
       align-items: center;
       justify-content: space-around;
       padding-bottom: 50px;
-      overflow:hidden; /* IE EDGE overflow fix */  
   }
   .sub-item h6 {
       color: rgba(106, 105, 105, .75);
@@ -143,14 +140,13 @@ body, html {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      overflow:hidden; /* IE EDGE overflow fix */  
   }
   .sub-headline button a {
     color: white;
   }
   .button {
     color: white;
-    background-color: rgba(53, 49, 49);
+    background-color: black;
     border: none;
     padding: 10px;
     text-align: center;
@@ -168,7 +164,7 @@ body, html {
     border: none;
     outline: none;
     text-decoration: none;
-    background-color:rgb(106, 105, 105);
+    background-color: black;
 }
 
 .button a::before {
@@ -196,8 +192,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  overflow:hidden; /* IE EDGE overflow fix */  
+  margin-top: 20px; 
 }
 footer p {
     font-size: .8rem;
@@ -286,7 +281,6 @@ footer p {
       padding: 0;
       margin: 0;
       display: none;
-      overflow:hidden; /* IE EDGE overflow fix */  
   }
   
   nav ul.opening {
@@ -342,8 +336,7 @@ footer p {
     nav ul {
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
-      overflow:hidden; /* IE EDGE overflow fix */  
+      justify-content: flex-end; 
     }
     nav li {
        flex: 1 1 auto;
@@ -371,7 +364,7 @@ footer p {
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
-        overflow:hidden; /* IE EDGE overflow fix */  
+
       } 
       nav ul.opening {
         display: block;
@@ -455,8 +448,9 @@ footer p {
   .sub-item h6 {
     font-size: 1rem;
 }
-.sub-item p {
+.sub-headline p {
     font-size: .9rem;
+    width: 80%;
 }
     .sub-item {
         flex-direction: row;
