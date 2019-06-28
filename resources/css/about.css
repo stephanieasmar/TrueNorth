@@ -291,7 +291,6 @@ nav ul li:hover ul.dropdown {display:block;}
       width: 80%;
       margin-left: 10%;
       height: auto;
-      overflow: scroll;
     }
     .mission h4 {
       font-size: 1.25rem;
